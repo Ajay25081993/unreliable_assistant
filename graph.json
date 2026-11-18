@@ -1,0 +1,1113 @@
+{
+ "nodes": [
+  {
+   "id": "mod:__init__",
+   "kind": "module",
+   "path": "core/__init__.py"
+  },
+  {
+   "id": "mod:graphify",
+   "kind": "module",
+   "path": "core/graphify.py"
+  },
+  {
+   "id": "mod:models",
+   "kind": "module",
+   "path": "core/models.py"
+  },
+  {
+   "id": "schema:Strict",
+   "kind": "schema"
+  },
+  {
+   "id": "schema:QueryRequest",
+   "kind": "schema"
+  },
+  {
+   "id": "schema:GetLotStatusIn",
+   "kind": "schema"
+  },
+  {
+   "id": "schema:ComputeRiskIn",
+   "kind": "schema"
+  },
+  {
+   "id": "schema:PlaceLotHoldIn",
+   "kind": "schema"
+  },
+  {
+   "id": "schema:SubgraphIn",
+   "kind": "schema"
+  },
+  {
+   "id": "schema:RetrieveIn",
+   "kind": "schema"
+  },
+  {
+   "id": "mod:rag",
+   "kind": "module",
+   "path": "core/rag.py"
+  },
+  {
+   "id": "mod:security",
+   "kind": "module",
+   "path": "core/security.py"
+  },
+  {
+   "id": "mod:store",
+   "kind": "module",
+   "path": "core/store.py"
+  },
+  {
+   "id": "mod:telemetry",
+   "kind": "module",
+   "path": "core/telemetry.py"
+  },
+  {
+   "id": "policy-audit-log",
+   "kind": "note",
+   "domain": "governance",
+   "risk_tier": "2",
+   "text": "Every agent action is written to a hash chained audit log. Each entry includes the hash of the previous entry so tampering is detectable. Audit entries are scoped by tenant."
+  },
+  {
+   "id": "policy-cold-chain",
+   "kind": "note",
+   "domain": "operations",
+   "risk_tier": "2",
+   "text": "Cold chain products must be stored between 2 and 8 degrees Celsius. Any temperature excursion must be recorded within one hour. The required response to an excursion depends on the risk class of the SKU, see policy-excursion-response and policy-lot-hold."
+  },
+  {
+   "id": "policy-excursion-response",
+   "kind": "note",
+   "domain": "quality",
+   "risk_tier": "3",
+   "text": "After a temperature excursion, risk class A SKUs require you to place an immediate lot hold and notify the quality lead. Risk class B SKUs require you to open a quality review within 24 hours. Risk class C SKUs require you to log the excursion with no further action."
+  },
+  {
+   "id": "policy-expiry",
+   "kind": "note",
+   "domain": "operations",
+   "risk_tier": "1",
+   "text": "Products within 30 days of expiry are flagged for priority shipping. Expired products must be quarantined, see policy-quarantine."
+  },
+  {
+   "id": "policy-hitl-approval",
+   "kind": "note",
+   "domain": "governance",
+   "risk_tier": "3",
+   "text": "Tier 3 actions such as lot holds and SKU status changes are never executed automatically. They are written as PENDING_APPROVAL and wait for a reviewer to approve or reject. Reviewers must not approve their own requests."
+  },
+  {
+   "id": "policy-labeling",
+   "kind": "note",
+   "domain": "operations",
+   "risk_tier": "1",
+   "text": "Every unit carries a label with SKU, lot number and expiry date. Labels for cold chain products also show the storage temperature range."
+  },
+  {
+   "id": "policy-lot-hold",
+   "kind": "note",
+   "domain": "quality",
+   "risk_tier": "3",
+   "text": "A lot hold freezes shipment of a lot. Placing a lot hold is a Tier 3 mutation and needs human approval from an authorized reviewer, see policy-hitl-approval. Lot identifiers use the format LOT-00000 with five digits."
+  },
+  {
+   "id": "policy-pii",
+   "kind": "note",
+   "domain": "governance",
+   "risk_tier": "2",
+   "text": "Personal data such as email addresses, phone numbers and social security numbers must be redacted before storage. Raw personal data is never written to logs, caches or audit records. See policy-audit-log."
+  },
+  {
+   "id": "policy-quarantine",
+   "kind": "note",
+   "domain": "quality",
+   "risk_tier": "2",
+   "text": "Quarantined stock is physically segregated and labeled QUARANTINE. Release from quarantine requires a quality review."
+  },
+  {
+   "id": "policy-recall",
+   "kind": "note",
+   "domain": "quality",
+   "risk_tier": "3",
+   "text": "A recall is initiated by the quality lead after a confirmed safety defect. All lots of the affected SKU are placed on hold, see policy-lot-hold, and customers are notified within 48 hours."
+  },
+  {
+   "id": "policy-returns",
+   "kind": "note",
+   "domain": "sales",
+   "risk_tier": "1",
+   "text": "Customer returns are accepted within 30 days of delivery when the seal is intact. Returned cold chain products are never restocked."
+  },
+  {
+   "id": "policy-supplier-audit",
+   "kind": "note",
+   "domain": "procurement",
+   "risk_tier": "1",
+   "text": "Critical suppliers are audited every 12 months. Non critical suppliers are audited every 24 months."
+  },
+  {
+   "id": "sku-001",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "1",
+   "text": "SKU-001|bandage|shelf 270d|ambient|class A"
+  },
+  {
+   "id": "sku-002",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "3",
+   "text": "SKU-002|saline|shelf 540d|15-25C|class C"
+  },
+  {
+   "id": "sku-003",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "2",
+   "text": "SKU-003|vaccine|shelf 120d|2-8C|class B"
+  },
+  {
+   "id": "sku-004",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "3",
+   "text": "SKU-004|saline|shelf 480d|15-25C|class C"
+  },
+  {
+   "id": "sku-005",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "3",
+   "text": "SKU-005|insulin|shelf 180d|2-8C|class C"
+  },
+  {
+   "id": "sku-006",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "3",
+   "text": "SKU-006|diagnostic kit|shelf 660d|2-30C|class C"
+  },
+  {
+   "id": "sku-007",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "1",
+   "text": "SKU-007|surgical tool|shelf 600d|ambient|class A"
+  },
+  {
+   "id": "sku-008",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "3",
+   "text": "SKU-008|surgical tool|shelf 540d|ambient|class C"
+  },
+  {
+   "id": "sku-009",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "3",
+   "text": "SKU-009|insulin|shelf 720d|2-8C|class C"
+  },
+  {
+   "id": "sku-010",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "3",
+   "text": "SKU-010|insulin|shelf 630d|2-8C|class C"
+  },
+  {
+   "id": "sku-011",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "2",
+   "text": "SKU-011|surgical tool|shelf 420d|ambient|class B"
+  },
+  {
+   "id": "sku-012",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "3",
+   "text": "SKU-012|diagnostic kit|shelf 240d|2-30C|class C"
+  },
+  {
+   "id": "sku-013",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "1",
+   "text": "SKU-013|reagent|shelf 150d|2-8C|class A"
+  },
+  {
+   "id": "sku-014",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "3",
+   "text": "SKU-014|bandage|shelf 150d|ambient|class C"
+  },
+  {
+   "id": "sku-015",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "3",
+   "text": "SKU-015|antibiotic|shelf 120d|15-25C|class C"
+  },
+  {
+   "id": "sku-016",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "1",
+   "text": "SKU-016|antibiotic|shelf 630d|15-25C|class A"
+  },
+  {
+   "id": "sku-017",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "2",
+   "text": "SKU-017|diagnostic kit|shelf 600d|2-30C|class B"
+  },
+  {
+   "id": "sku-018",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "2",
+   "text": "SKU-018|reagent|shelf 540d|2-8C|class B"
+  },
+  {
+   "id": "sku-019",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "2",
+   "text": "SKU-019|reagent|shelf 120d|2-8C|class B"
+  },
+  {
+   "id": "sku-020",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "2",
+   "text": "SKU-020|reagent|shelf 240d|2-8C|class B"
+  },
+  {
+   "id": "sku-021",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "2",
+   "text": "SKU-021|vaccine|shelf 450d|2-8C|class B"
+  },
+  {
+   "id": "sku-022",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "1",
+   "text": "SKU-022|reagent|shelf 540d|2-8C|class A"
+  },
+  {
+   "id": "sku-023",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "2",
+   "text": "SKU-023|diagnostic kit|shelf 660d|2-30C|class B"
+  },
+  {
+   "id": "sku-024",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "1",
+   "text": "SKU-024|surgical tool|shelf 210d|ambient|class A"
+  },
+  {
+   "id": "sku-025",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "1",
+   "text": "SKU-025|insulin|shelf 300d|2-8C|class A"
+  },
+  {
+   "id": "sku-026",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "3",
+   "text": "SKU-026|antibiotic|shelf 210d|15-25C|class C"
+  },
+  {
+   "id": "sku-027",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "1",
+   "text": "SKU-027|diagnostic kit|shelf 420d|2-30C|class A"
+  },
+  {
+   "id": "sku-028",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "1",
+   "text": "SKU-028|diagnostic kit|shelf 690d|2-30C|class A"
+  },
+  {
+   "id": "sku-029",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "2",
+   "text": "SKU-029|reagent|shelf 360d|2-8C|class B"
+  },
+  {
+   "id": "sku-030",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "2",
+   "text": "SKU-030|surgical tool|shelf 540d|ambient|class B"
+  },
+  {
+   "id": "sku-031",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "2",
+   "text": "SKU-031|reagent|shelf 720d|2-8C|class B"
+  },
+  {
+   "id": "sku-032",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "2",
+   "text": "SKU-032|bandage|shelf 450d|ambient|class B"
+  },
+  {
+   "id": "sku-033",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "3",
+   "text": "SKU-033|surgical tool|shelf 180d|ambient|class C"
+  },
+  {
+   "id": "sku-034",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "2",
+   "text": "SKU-034|saline|shelf 390d|15-25C|class B"
+  },
+  {
+   "id": "sku-035",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "3",
+   "text": "SKU-035|vaccine|shelf 630d|2-8C|class C"
+  },
+  {
+   "id": "sku-036",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "3",
+   "text": "SKU-036|diagnostic kit|shelf 90d|2-30C|class C"
+  },
+  {
+   "id": "sku-037",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "3",
+   "text": "SKU-037|antibiotic|shelf 660d|15-25C|class C"
+  },
+  {
+   "id": "sku-038",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "3",
+   "text": "SKU-038|saline|shelf 180d|15-25C|class C"
+  },
+  {
+   "id": "sku-039",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "3",
+   "text": "SKU-039|saline|shelf 120d|15-25C|class C"
+  },
+  {
+   "id": "sku-040",
+   "kind": "note",
+   "domain": "catalog",
+   "risk_tier": "3",
+   "text": "SKU-040|vaccine|shelf 240d|2-8C|class C"
+  }
+ ],
+ "edges": [
+  [
+   "mod:models",
+   "schema:Strict",
+   "defines"
+  ],
+  [
+   "mod:models",
+   "schema:QueryRequest",
+   "defines"
+  ],
+  [
+   "mod:models",
+   "schema:GetLotStatusIn",
+   "defines"
+  ],
+  [
+   "mod:models",
+   "schema:ComputeRiskIn",
+   "defines"
+  ],
+  [
+   "mod:models",
+   "schema:PlaceLotHoldIn",
+   "defines"
+  ],
+  [
+   "mod:models",
+   "schema:SubgraphIn",
+   "defines"
+  ],
+  [
+   "mod:models",
+   "schema:RetrieveIn",
+   "defines"
+  ],
+  [
+   "mod:rag",
+   "mod:telemetry",
+   "imports"
+  ],
+  [
+   "mod:store",
+   "mod:security",
+   "imports"
+  ],
+  [
+   "policy-cold-chain",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "policy-cold-chain",
+   "policy-lot-hold",
+   "links"
+  ],
+  [
+   "policy-excursion-response",
+   "policy-lot-hold",
+   "links"
+  ],
+  [
+   "policy-expiry",
+   "policy-quarantine",
+   "links"
+  ],
+  [
+   "policy-lot-hold",
+   "policy-hitl-approval",
+   "links"
+  ],
+  [
+   "policy-pii",
+   "policy-audit-log",
+   "links"
+  ],
+  [
+   "policy-recall",
+   "policy-lot-hold",
+   "links"
+  ],
+  [
+   "sku-001",
+   "policy-expiry",
+   "links"
+  ],
+  [
+   "sku-001",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-001",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-002",
+   "policy-expiry",
+   "links"
+  ],
+  [
+   "sku-002",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-002",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-003",
+   "policy-cold-chain",
+   "links"
+  ],
+  [
+   "sku-003",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-003",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-004",
+   "policy-expiry",
+   "links"
+  ],
+  [
+   "sku-004",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-004",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-005",
+   "policy-cold-chain",
+   "links"
+  ],
+  [
+   "sku-005",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-005",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-006",
+   "policy-expiry",
+   "links"
+  ],
+  [
+   "sku-006",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-006",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-007",
+   "policy-expiry",
+   "links"
+  ],
+  [
+   "sku-007",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-007",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-008",
+   "policy-expiry",
+   "links"
+  ],
+  [
+   "sku-008",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-008",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-009",
+   "policy-cold-chain",
+   "links"
+  ],
+  [
+   "sku-009",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-009",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-010",
+   "policy-cold-chain",
+   "links"
+  ],
+  [
+   "sku-010",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-010",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-011",
+   "policy-expiry",
+   "links"
+  ],
+  [
+   "sku-011",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-011",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-012",
+   "policy-expiry",
+   "links"
+  ],
+  [
+   "sku-012",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-012",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-013",
+   "policy-cold-chain",
+   "links"
+  ],
+  [
+   "sku-013",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-013",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-014",
+   "policy-expiry",
+   "links"
+  ],
+  [
+   "sku-014",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-014",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-015",
+   "policy-expiry",
+   "links"
+  ],
+  [
+   "sku-015",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-015",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-016",
+   "policy-expiry",
+   "links"
+  ],
+  [
+   "sku-016",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-016",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-017",
+   "policy-expiry",
+   "links"
+  ],
+  [
+   "sku-017",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-017",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-018",
+   "policy-cold-chain",
+   "links"
+  ],
+  [
+   "sku-018",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-018",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-019",
+   "policy-cold-chain",
+   "links"
+  ],
+  [
+   "sku-019",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-019",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-020",
+   "policy-cold-chain",
+   "links"
+  ],
+  [
+   "sku-020",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-020",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-021",
+   "policy-cold-chain",
+   "links"
+  ],
+  [
+   "sku-021",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-021",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-022",
+   "policy-cold-chain",
+   "links"
+  ],
+  [
+   "sku-022",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-022",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-023",
+   "policy-expiry",
+   "links"
+  ],
+  [
+   "sku-023",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-023",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-024",
+   "policy-expiry",
+   "links"
+  ],
+  [
+   "sku-024",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-024",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-025",
+   "policy-cold-chain",
+   "links"
+  ],
+  [
+   "sku-025",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-025",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-026",
+   "policy-expiry",
+   "links"
+  ],
+  [
+   "sku-026",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-026",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-027",
+   "policy-expiry",
+   "links"
+  ],
+  [
+   "sku-027",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-027",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-028",
+   "policy-expiry",
+   "links"
+  ],
+  [
+   "sku-028",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-028",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-029",
+   "policy-cold-chain",
+   "links"
+  ],
+  [
+   "sku-029",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-029",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-030",
+   "policy-expiry",
+   "links"
+  ],
+  [
+   "sku-030",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-030",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-031",
+   "policy-cold-chain",
+   "links"
+  ],
+  [
+   "sku-031",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-031",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-032",
+   "policy-expiry",
+   "links"
+  ],
+  [
+   "sku-032",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-032",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-033",
+   "policy-expiry",
+   "links"
+  ],
+  [
+   "sku-033",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-033",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-034",
+   "policy-expiry",
+   "links"
+  ],
+  [
+   "sku-034",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-034",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-035",
+   "policy-cold-chain",
+   "links"
+  ],
+  [
+   "sku-035",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-035",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-036",
+   "policy-expiry",
+   "links"
+  ],
+  [
+   "sku-036",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-036",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-037",
+   "policy-expiry",
+   "links"
+  ],
+  [
+   "sku-037",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-037",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-038",
+   "policy-expiry",
+   "links"
+  ],
+  [
+   "sku-038",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-038",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-039",
+   "policy-expiry",
+   "links"
+  ],
+  [
+   "sku-039",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-039",
+   "policy-labeling",
+   "links"
+  ],
+  [
+   "sku-040",
+   "policy-cold-chain",
+   "links"
+  ],
+  [
+   "sku-040",
+   "policy-excursion-response",
+   "links"
+  ],
+  [
+   "sku-040",
+   "policy-labeling",
+   "links"
+  ]
+ ]
+}

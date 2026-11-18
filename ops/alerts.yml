@@ -1,0 +1,17 @@
+groups:
+- name: unreliable-assistant
+  rules:
+  - alert: LatencyBreach
+    expr: span_duration_ms{span="agent.react.step",quantile="0.95"} > 550
+    for: 30s
+    annotations: { runbook: "ops/runbooks.md#1-latency-breach" }
+  - alert: HallucinationSurge
+    expr: ragas_faithfulness_5m < 0.90
+    for: 5m
+    annotations: { runbook: "ops/runbooks.md#2-hallucination-surge" }
+  - alert: McpServerHang
+    expr: rate(mcp_timeouts_total[5m]) / rate(requests_total[5m]) > 0.01
+    annotations: { runbook: "ops/runbooks.md#3-mcp-server-hang" }
+  - alert: CacheStampedeOrLeak
+    expr: redis_cpu_percent > 85 or increase(cache_tenant_collision_total[1m]) > 0
+    annotations: { runbook: "ops/runbooks.md#4-cache-stampede--leak" }

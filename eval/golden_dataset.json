@@ -1,0 +1,2288 @@
+[
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-001?",
+  "answer": "270 days",
+  "relevant_ids": [
+   "sku-001"
+  ],
+  "id": "q001"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-002?",
+  "answer": "540 days",
+  "relevant_ids": [
+   "sku-002"
+  ],
+  "id": "q002"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-003?",
+  "answer": "120 days",
+  "relevant_ids": [
+   "sku-003"
+  ],
+  "id": "q003"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-004?",
+  "answer": "480 days",
+  "relevant_ids": [
+   "sku-004"
+  ],
+  "id": "q004"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-005?",
+  "answer": "180 days",
+  "relevant_ids": [
+   "sku-005"
+  ],
+  "id": "q005"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-006?",
+  "answer": "660 days",
+  "relevant_ids": [
+   "sku-006"
+  ],
+  "id": "q006"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-007?",
+  "answer": "600 days",
+  "relevant_ids": [
+   "sku-007"
+  ],
+  "id": "q007"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-008?",
+  "answer": "540 days",
+  "relevant_ids": [
+   "sku-008"
+  ],
+  "id": "q008"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-009?",
+  "answer": "720 days",
+  "relevant_ids": [
+   "sku-009"
+  ],
+  "id": "q009"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-010?",
+  "answer": "630 days",
+  "relevant_ids": [
+   "sku-010"
+  ],
+  "id": "q010"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-011?",
+  "answer": "420 days",
+  "relevant_ids": [
+   "sku-011"
+  ],
+  "id": "q011"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-012?",
+  "answer": "240 days",
+  "relevant_ids": [
+   "sku-012"
+  ],
+  "id": "q012"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-013?",
+  "answer": "150 days",
+  "relevant_ids": [
+   "sku-013"
+  ],
+  "id": "q013"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-014?",
+  "answer": "150 days",
+  "relevant_ids": [
+   "sku-014"
+  ],
+  "id": "q014"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-015?",
+  "answer": "120 days",
+  "relevant_ids": [
+   "sku-015"
+  ],
+  "id": "q015"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-016?",
+  "answer": "630 days",
+  "relevant_ids": [
+   "sku-016"
+  ],
+  "id": "q016"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-017?",
+  "answer": "600 days",
+  "relevant_ids": [
+   "sku-017"
+  ],
+  "id": "q017"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-018?",
+  "answer": "540 days",
+  "relevant_ids": [
+   "sku-018"
+  ],
+  "id": "q018"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-019?",
+  "answer": "120 days",
+  "relevant_ids": [
+   "sku-019"
+  ],
+  "id": "q019"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-020?",
+  "answer": "240 days",
+  "relevant_ids": [
+   "sku-020"
+  ],
+  "id": "q020"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-021?",
+  "answer": "450 days",
+  "relevant_ids": [
+   "sku-021"
+  ],
+  "id": "q021"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-022?",
+  "answer": "540 days",
+  "relevant_ids": [
+   "sku-022"
+  ],
+  "id": "q022"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-023?",
+  "answer": "660 days",
+  "relevant_ids": [
+   "sku-023"
+  ],
+  "id": "q023"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-024?",
+  "answer": "210 days",
+  "relevant_ids": [
+   "sku-024"
+  ],
+  "id": "q024"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-025?",
+  "answer": "300 days",
+  "relevant_ids": [
+   "sku-025"
+  ],
+  "id": "q025"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-026?",
+  "answer": "210 days",
+  "relevant_ids": [
+   "sku-026"
+  ],
+  "id": "q026"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-027?",
+  "answer": "420 days",
+  "relevant_ids": [
+   "sku-027"
+  ],
+  "id": "q027"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-028?",
+  "answer": "690 days",
+  "relevant_ids": [
+   "sku-028"
+  ],
+  "id": "q028"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-029?",
+  "answer": "360 days",
+  "relevant_ids": [
+   "sku-029"
+  ],
+  "id": "q029"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-030?",
+  "answer": "540 days",
+  "relevant_ids": [
+   "sku-030"
+  ],
+  "id": "q030"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-031?",
+  "answer": "720 days",
+  "relevant_ids": [
+   "sku-031"
+  ],
+  "id": "q031"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-032?",
+  "answer": "450 days",
+  "relevant_ids": [
+   "sku-032"
+  ],
+  "id": "q032"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-033?",
+  "answer": "180 days",
+  "relevant_ids": [
+   "sku-033"
+  ],
+  "id": "q033"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-034?",
+  "answer": "390 days",
+  "relevant_ids": [
+   "sku-034"
+  ],
+  "id": "q034"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-035?",
+  "answer": "630 days",
+  "relevant_ids": [
+   "sku-035"
+  ],
+  "id": "q035"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-036?",
+  "answer": "90 days",
+  "relevant_ids": [
+   "sku-036"
+  ],
+  "id": "q036"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-037?",
+  "answer": "660 days",
+  "relevant_ids": [
+   "sku-037"
+  ],
+  "id": "q037"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-038?",
+  "answer": "180 days",
+  "relevant_ids": [
+   "sku-038"
+  ],
+  "id": "q038"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-039?",
+  "answer": "120 days",
+  "relevant_ids": [
+   "sku-039"
+  ],
+  "id": "q039"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the shelf life of SKU-040?",
+  "answer": "240 days",
+  "relevant_ids": [
+   "sku-040"
+  ],
+  "id": "q040"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the storage temperature of SKU-003?",
+  "answer": "2-8C",
+  "relevant_ids": [
+   "sku-003"
+  ],
+  "id": "q041"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the storage temperature of SKU-018?",
+  "answer": "2-8C",
+  "relevant_ids": [
+   "sku-018"
+  ],
+  "id": "q042"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the storage temperature of SKU-012?",
+  "answer": "2-30C",
+  "relevant_ids": [
+   "sku-012"
+  ],
+  "id": "q043"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the storage temperature of SKU-021?",
+  "answer": "2-8C",
+  "relevant_ids": [
+   "sku-021"
+  ],
+  "id": "q044"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the storage temperature of SKU-006?",
+  "answer": "2-30C",
+  "relevant_ids": [
+   "sku-006"
+  ],
+  "id": "q045"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the storage temperature of SKU-007?",
+  "answer": "ambient",
+  "relevant_ids": [
+   "sku-007"
+  ],
+  "id": "q046"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the storage temperature of SKU-027?",
+  "answer": "2-30C",
+  "relevant_ids": [
+   "sku-027"
+  ],
+  "id": "q047"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the storage temperature of SKU-010?",
+  "answer": "2-8C",
+  "relevant_ids": [
+   "sku-010"
+  ],
+  "id": "q048"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the storage temperature of SKU-024?",
+  "answer": "ambient",
+  "relevant_ids": [
+   "sku-024"
+  ],
+  "id": "q049"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the storage temperature of SKU-005?",
+  "answer": "2-8C",
+  "relevant_ids": [
+   "sku-005"
+  ],
+  "id": "q050"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the storage temperature of SKU-009?",
+  "answer": "2-8C",
+  "relevant_ids": [
+   "sku-009"
+  ],
+  "id": "q051"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the storage temperature of SKU-040?",
+  "answer": "2-8C",
+  "relevant_ids": [
+   "sku-040"
+  ],
+  "id": "q052"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the storage temperature of SKU-019?",
+  "answer": "2-8C",
+  "relevant_ids": [
+   "sku-019"
+  ],
+  "id": "q053"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the storage temperature of SKU-029?",
+  "answer": "2-8C",
+  "relevant_ids": [
+   "sku-029"
+  ],
+  "id": "q054"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the storage temperature of SKU-023?",
+  "answer": "2-30C",
+  "relevant_ids": [
+   "sku-023"
+  ],
+  "id": "q055"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the storage temperature of SKU-028?",
+  "answer": "2-30C",
+  "relevant_ids": [
+   "sku-028"
+  ],
+  "id": "q056"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the storage temperature of SKU-035?",
+  "answer": "2-8C",
+  "relevant_ids": [
+   "sku-035"
+  ],
+  "id": "q057"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the storage temperature of SKU-039?",
+  "answer": "15-25C",
+  "relevant_ids": [
+   "sku-039"
+  ],
+  "id": "q058"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the storage temperature of SKU-037?",
+  "answer": "15-25C",
+  "relevant_ids": [
+   "sku-037"
+  ],
+  "id": "q059"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the storage temperature of SKU-036?",
+  "answer": "2-30C",
+  "relevant_ids": [
+   "sku-036"
+  ],
+  "id": "q060"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the storage temperature of SKU-034?",
+  "answer": "15-25C",
+  "relevant_ids": [
+   "sku-034"
+  ],
+  "id": "q061"
+ },
+ {
+  "type": "factoid",
+  "question": "What is the storage temperature of SKU-020?",
+  "answer": "2-8C",
+  "relevant_ids": [
+   "sku-020"
+  ],
+  "id": "q062"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-040 or SKU-002?",
+  "answer": "SKU-002",
+  "relevant_ids": [
+   "sku-040",
+   "sku-002"
+  ],
+  "id": "q063"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-021 or SKU-011?",
+  "answer": "SKU-021",
+  "relevant_ids": [
+   "sku-021",
+   "sku-011"
+  ],
+  "id": "q064"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-033 or SKU-015?",
+  "answer": "SKU-033",
+  "relevant_ids": [
+   "sku-033",
+   "sku-015"
+  ],
+  "id": "q065"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-017 or SKU-005?",
+  "answer": "SKU-017",
+  "relevant_ids": [
+   "sku-017",
+   "sku-005"
+  ],
+  "id": "q066"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-006 or SKU-008?",
+  "answer": "SKU-006",
+  "relevant_ids": [
+   "sku-006",
+   "sku-008"
+  ],
+  "id": "q067"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-019 or SKU-002?",
+  "answer": "SKU-002",
+  "relevant_ids": [
+   "sku-019",
+   "sku-002"
+  ],
+  "id": "q068"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-030 or SKU-039?",
+  "answer": "SKU-030",
+  "relevant_ids": [
+   "sku-030",
+   "sku-039"
+  ],
+  "id": "q069"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-019 or SKU-024?",
+  "answer": "SKU-024",
+  "relevant_ids": [
+   "sku-019",
+   "sku-024"
+  ],
+  "id": "q070"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-019 or SKU-017?",
+  "answer": "SKU-017",
+  "relevant_ids": [
+   "sku-019",
+   "sku-017"
+  ],
+  "id": "q071"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-018 or SKU-004?",
+  "answer": "SKU-018",
+  "relevant_ids": [
+   "sku-018",
+   "sku-004"
+  ],
+  "id": "q072"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-011 or SKU-018?",
+  "answer": "SKU-018",
+  "relevant_ids": [
+   "sku-011",
+   "sku-018"
+  ],
+  "id": "q073"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-028 or SKU-003?",
+  "answer": "SKU-028",
+  "relevant_ids": [
+   "sku-028",
+   "sku-003"
+  ],
+  "id": "q074"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-034 or SKU-020?",
+  "answer": "SKU-034",
+  "relevant_ids": [
+   "sku-034",
+   "sku-020"
+  ],
+  "id": "q075"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-001 or SKU-019?",
+  "answer": "SKU-001",
+  "relevant_ids": [
+   "sku-001",
+   "sku-019"
+  ],
+  "id": "q076"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-005 or SKU-039?",
+  "answer": "SKU-005",
+  "relevant_ids": [
+   "sku-005",
+   "sku-039"
+  ],
+  "id": "q077"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-010 or SKU-022?",
+  "answer": "SKU-010",
+  "relevant_ids": [
+   "sku-010",
+   "sku-022"
+  ],
+  "id": "q078"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-031 or SKU-004?",
+  "answer": "SKU-031",
+  "relevant_ids": [
+   "sku-031",
+   "sku-004"
+  ],
+  "id": "q079"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-016 or SKU-032?",
+  "answer": "SKU-016",
+  "relevant_ids": [
+   "sku-016",
+   "sku-032"
+  ],
+  "id": "q080"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-029 or SKU-024?",
+  "answer": "SKU-029",
+  "relevant_ids": [
+   "sku-029",
+   "sku-024"
+  ],
+  "id": "q081"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-033 or SKU-004?",
+  "answer": "SKU-004",
+  "relevant_ids": [
+   "sku-033",
+   "sku-004"
+  ],
+  "id": "q082"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-020 or SKU-029?",
+  "answer": "SKU-029",
+  "relevant_ids": [
+   "sku-020",
+   "sku-029"
+  ],
+  "id": "q083"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-021 or SKU-020?",
+  "answer": "SKU-021",
+  "relevant_ids": [
+   "sku-021",
+   "sku-020"
+  ],
+  "id": "q084"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-010 or SKU-024?",
+  "answer": "SKU-010",
+  "relevant_ids": [
+   "sku-010",
+   "sku-024"
+  ],
+  "id": "q085"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-027 or SKU-005?",
+  "answer": "SKU-027",
+  "relevant_ids": [
+   "sku-027",
+   "sku-005"
+  ],
+  "id": "q086"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-016 or SKU-004?",
+  "answer": "SKU-016",
+  "relevant_ids": [
+   "sku-016",
+   "sku-004"
+  ],
+  "id": "q087"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-007 or SKU-009?",
+  "answer": "SKU-009",
+  "relevant_ids": [
+   "sku-007",
+   "sku-009"
+  ],
+  "id": "q088"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-038 or SKU-026?",
+  "answer": "SKU-026",
+  "relevant_ids": [
+   "sku-038",
+   "sku-026"
+  ],
+  "id": "q089"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-034 or SKU-001?",
+  "answer": "SKU-034",
+  "relevant_ids": [
+   "sku-034",
+   "sku-001"
+  ],
+  "id": "q090"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-009 or SKU-006?",
+  "answer": "SKU-009",
+  "relevant_ids": [
+   "sku-009",
+   "sku-006"
+  ],
+  "id": "q091"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-021 or SKU-019?",
+  "answer": "SKU-021",
+  "relevant_ids": [
+   "sku-021",
+   "sku-019"
+  ],
+  "id": "q092"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-035 or SKU-003?",
+  "answer": "SKU-035",
+  "relevant_ids": [
+   "sku-035",
+   "sku-003"
+  ],
+  "id": "q093"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-005 or SKU-024?",
+  "answer": "SKU-024",
+  "relevant_ids": [
+   "sku-005",
+   "sku-024"
+  ],
+  "id": "q094"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-007 or SKU-008?",
+  "answer": "SKU-007",
+  "relevant_ids": [
+   "sku-007",
+   "sku-008"
+  ],
+  "id": "q095"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-036 or SKU-039?",
+  "answer": "SKU-039",
+  "relevant_ids": [
+   "sku-036",
+   "sku-039"
+  ],
+  "id": "q096"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-003 or SKU-008?",
+  "answer": "SKU-008",
+  "relevant_ids": [
+   "sku-003",
+   "sku-008"
+  ],
+  "id": "q097"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-032 or SKU-004?",
+  "answer": "SKU-004",
+  "relevant_ids": [
+   "sku-032",
+   "sku-004"
+  ],
+  "id": "q098"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-005 or SKU-006?",
+  "answer": "SKU-006",
+  "relevant_ids": [
+   "sku-005",
+   "sku-006"
+  ],
+  "id": "q099"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-013 or SKU-005?",
+  "answer": "SKU-005",
+  "relevant_ids": [
+   "sku-013",
+   "sku-005"
+  ],
+  "id": "q100"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-031 or SKU-012?",
+  "answer": "SKU-031",
+  "relevant_ids": [
+   "sku-031",
+   "sku-012"
+  ],
+  "id": "q101"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-026 or SKU-040?",
+  "answer": "SKU-040",
+  "relevant_ids": [
+   "sku-026",
+   "sku-040"
+  ],
+  "id": "q102"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-018 or SKU-011?",
+  "answer": "SKU-018",
+  "relevant_ids": [
+   "sku-018",
+   "sku-011"
+  ],
+  "id": "q103"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-025 or SKU-024?",
+  "answer": "SKU-025",
+  "relevant_ids": [
+   "sku-025",
+   "sku-024"
+  ],
+  "id": "q104"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-036 or SKU-008?",
+  "answer": "SKU-008",
+  "relevant_ids": [
+   "sku-036",
+   "sku-008"
+  ],
+  "id": "q105"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-004 or SKU-006?",
+  "answer": "SKU-006",
+  "relevant_ids": [
+   "sku-004",
+   "sku-006"
+  ],
+  "id": "q106"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-020 or SKU-033?",
+  "answer": "SKU-020",
+  "relevant_ids": [
+   "sku-020",
+   "sku-033"
+  ],
+  "id": "q107"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-035 or SKU-013?",
+  "answer": "SKU-035",
+  "relevant_ids": [
+   "sku-035",
+   "sku-013"
+  ],
+  "id": "q108"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-012 or SKU-005?",
+  "answer": "SKU-012",
+  "relevant_ids": [
+   "sku-012",
+   "sku-005"
+  ],
+  "id": "q109"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-033 or SKU-025?",
+  "answer": "SKU-025",
+  "relevant_ids": [
+   "sku-033",
+   "sku-025"
+  ],
+  "id": "q110"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-007 or SKU-029?",
+  "answer": "SKU-007",
+  "relevant_ids": [
+   "sku-007",
+   "sku-029"
+  ],
+  "id": "q111"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-005 or SKU-040?",
+  "answer": "SKU-040",
+  "relevant_ids": [
+   "sku-005",
+   "sku-040"
+  ],
+  "id": "q112"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-015 or SKU-025?",
+  "answer": "SKU-025",
+  "relevant_ids": [
+   "sku-015",
+   "sku-025"
+  ],
+  "id": "q113"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-012 or SKU-009?",
+  "answer": "SKU-009",
+  "relevant_ids": [
+   "sku-012",
+   "sku-009"
+  ],
+  "id": "q114"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-033 or SKU-013?",
+  "answer": "SKU-033",
+  "relevant_ids": [
+   "sku-033",
+   "sku-013"
+  ],
+  "id": "q115"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-019 or SKU-031?",
+  "answer": "SKU-031",
+  "relevant_ids": [
+   "sku-019",
+   "sku-031"
+  ],
+  "id": "q116"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-028 or SKU-013?",
+  "answer": "SKU-028",
+  "relevant_ids": [
+   "sku-028",
+   "sku-013"
+  ],
+  "id": "q117"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-005 or SKU-030?",
+  "answer": "SKU-030",
+  "relevant_ids": [
+   "sku-005",
+   "sku-030"
+  ],
+  "id": "q118"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-026 or SKU-009?",
+  "answer": "SKU-009",
+  "relevant_ids": [
+   "sku-026",
+   "sku-009"
+  ],
+  "id": "q119"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-020 or SKU-016?",
+  "answer": "SKU-016",
+  "relevant_ids": [
+   "sku-020",
+   "sku-016"
+  ],
+  "id": "q120"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-023 or SKU-012?",
+  "answer": "SKU-023",
+  "relevant_ids": [
+   "sku-023",
+   "sku-012"
+  ],
+  "id": "q121"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-011 or SKU-028?",
+  "answer": "SKU-028",
+  "relevant_ids": [
+   "sku-011",
+   "sku-028"
+  ],
+  "id": "q122"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-003 or SKU-021?",
+  "answer": "SKU-021",
+  "relevant_ids": [
+   "sku-003",
+   "sku-021"
+  ],
+  "id": "q123"
+ },
+ {
+  "type": "complex",
+  "question": "Which has a longer shelf life, SKU-032 or SKU-015?",
+  "answer": "SKU-032",
+  "relevant_ids": [
+   "sku-032",
+   "sku-015"
+  ],
+  "id": "q124"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-001. What action is required?",
+  "answer": "place an immediate lot hold and notify the quality lead",
+  "relevant_ids": [
+   "sku-001",
+   "policy-excursion-response"
+  ],
+  "id": "q125"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-002. What action is required?",
+  "answer": "log the excursion with no further action",
+  "relevant_ids": [
+   "sku-002",
+   "policy-excursion-response"
+  ],
+  "id": "q126"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-003. What action is required?",
+  "answer": "open a quality review within 24 hours",
+  "relevant_ids": [
+   "sku-003",
+   "policy-excursion-response"
+  ],
+  "id": "q127"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-004. What action is required?",
+  "answer": "log the excursion with no further action",
+  "relevant_ids": [
+   "sku-004",
+   "policy-excursion-response"
+  ],
+  "id": "q128"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-005. What action is required?",
+  "answer": "log the excursion with no further action",
+  "relevant_ids": [
+   "sku-005",
+   "policy-excursion-response"
+  ],
+  "id": "q129"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-006. What action is required?",
+  "answer": "log the excursion with no further action",
+  "relevant_ids": [
+   "sku-006",
+   "policy-excursion-response"
+  ],
+  "id": "q130"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-007. What action is required?",
+  "answer": "place an immediate lot hold and notify the quality lead",
+  "relevant_ids": [
+   "sku-007",
+   "policy-excursion-response"
+  ],
+  "id": "q131"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-008. What action is required?",
+  "answer": "log the excursion with no further action",
+  "relevant_ids": [
+   "sku-008",
+   "policy-excursion-response"
+  ],
+  "id": "q132"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-009. What action is required?",
+  "answer": "log the excursion with no further action",
+  "relevant_ids": [
+   "sku-009",
+   "policy-excursion-response"
+  ],
+  "id": "q133"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-010. What action is required?",
+  "answer": "log the excursion with no further action",
+  "relevant_ids": [
+   "sku-010",
+   "policy-excursion-response"
+  ],
+  "id": "q134"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-011. What action is required?",
+  "answer": "open a quality review within 24 hours",
+  "relevant_ids": [
+   "sku-011",
+   "policy-excursion-response"
+  ],
+  "id": "q135"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-012. What action is required?",
+  "answer": "log the excursion with no further action",
+  "relevant_ids": [
+   "sku-012",
+   "policy-excursion-response"
+  ],
+  "id": "q136"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-013. What action is required?",
+  "answer": "place an immediate lot hold and notify the quality lead",
+  "relevant_ids": [
+   "sku-013",
+   "policy-excursion-response"
+  ],
+  "id": "q137"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-014. What action is required?",
+  "answer": "log the excursion with no further action",
+  "relevant_ids": [
+   "sku-014",
+   "policy-excursion-response"
+  ],
+  "id": "q138"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-015. What action is required?",
+  "answer": "log the excursion with no further action",
+  "relevant_ids": [
+   "sku-015",
+   "policy-excursion-response"
+  ],
+  "id": "q139"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-016. What action is required?",
+  "answer": "place an immediate lot hold and notify the quality lead",
+  "relevant_ids": [
+   "sku-016",
+   "policy-excursion-response"
+  ],
+  "id": "q140"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-017. What action is required?",
+  "answer": "open a quality review within 24 hours",
+  "relevant_ids": [
+   "sku-017",
+   "policy-excursion-response"
+  ],
+  "id": "q141"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-018. What action is required?",
+  "answer": "open a quality review within 24 hours",
+  "relevant_ids": [
+   "sku-018",
+   "policy-excursion-response"
+  ],
+  "id": "q142"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-019. What action is required?",
+  "answer": "open a quality review within 24 hours",
+  "relevant_ids": [
+   "sku-019",
+   "policy-excursion-response"
+  ],
+  "id": "q143"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-020. What action is required?",
+  "answer": "open a quality review within 24 hours",
+  "relevant_ids": [
+   "sku-020",
+   "policy-excursion-response"
+  ],
+  "id": "q144"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-021. What action is required?",
+  "answer": "open a quality review within 24 hours",
+  "relevant_ids": [
+   "sku-021",
+   "policy-excursion-response"
+  ],
+  "id": "q145"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-022. What action is required?",
+  "answer": "place an immediate lot hold and notify the quality lead",
+  "relevant_ids": [
+   "sku-022",
+   "policy-excursion-response"
+  ],
+  "id": "q146"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-023. What action is required?",
+  "answer": "open a quality review within 24 hours",
+  "relevant_ids": [
+   "sku-023",
+   "policy-excursion-response"
+  ],
+  "id": "q147"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-024. What action is required?",
+  "answer": "place an immediate lot hold and notify the quality lead",
+  "relevant_ids": [
+   "sku-024",
+   "policy-excursion-response"
+  ],
+  "id": "q148"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-025. What action is required?",
+  "answer": "place an immediate lot hold and notify the quality lead",
+  "relevant_ids": [
+   "sku-025",
+   "policy-excursion-response"
+  ],
+  "id": "q149"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-026. What action is required?",
+  "answer": "log the excursion with no further action",
+  "relevant_ids": [
+   "sku-026",
+   "policy-excursion-response"
+  ],
+  "id": "q150"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-027. What action is required?",
+  "answer": "place an immediate lot hold and notify the quality lead",
+  "relevant_ids": [
+   "sku-027",
+   "policy-excursion-response"
+  ],
+  "id": "q151"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-028. What action is required?",
+  "answer": "place an immediate lot hold and notify the quality lead",
+  "relevant_ids": [
+   "sku-028",
+   "policy-excursion-response"
+  ],
+  "id": "q152"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-029. What action is required?",
+  "answer": "open a quality review within 24 hours",
+  "relevant_ids": [
+   "sku-029",
+   "policy-excursion-response"
+  ],
+  "id": "q153"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-030. What action is required?",
+  "answer": "open a quality review within 24 hours",
+  "relevant_ids": [
+   "sku-030",
+   "policy-excursion-response"
+  ],
+  "id": "q154"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-031. What action is required?",
+  "answer": "open a quality review within 24 hours",
+  "relevant_ids": [
+   "sku-031",
+   "policy-excursion-response"
+  ],
+  "id": "q155"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-032. What action is required?",
+  "answer": "open a quality review within 24 hours",
+  "relevant_ids": [
+   "sku-032",
+   "policy-excursion-response"
+  ],
+  "id": "q156"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-033. What action is required?",
+  "answer": "log the excursion with no further action",
+  "relevant_ids": [
+   "sku-033",
+   "policy-excursion-response"
+  ],
+  "id": "q157"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-034. What action is required?",
+  "answer": "open a quality review within 24 hours",
+  "relevant_ids": [
+   "sku-034",
+   "policy-excursion-response"
+  ],
+  "id": "q158"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-035. What action is required?",
+  "answer": "log the excursion with no further action",
+  "relevant_ids": [
+   "sku-035",
+   "policy-excursion-response"
+  ],
+  "id": "q159"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-036. What action is required?",
+  "answer": "log the excursion with no further action",
+  "relevant_ids": [
+   "sku-036",
+   "policy-excursion-response"
+  ],
+  "id": "q160"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-037. What action is required?",
+  "answer": "log the excursion with no further action",
+  "relevant_ids": [
+   "sku-037",
+   "policy-excursion-response"
+  ],
+  "id": "q161"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-038. What action is required?",
+  "answer": "log the excursion with no further action",
+  "relevant_ids": [
+   "sku-038",
+   "policy-excursion-response"
+  ],
+  "id": "q162"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-039. What action is required?",
+  "answer": "log the excursion with no further action",
+  "relevant_ids": [
+   "sku-039",
+   "policy-excursion-response"
+  ],
+  "id": "q163"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-040. What action is required?",
+  "answer": "log the excursion with no further action",
+  "relevant_ids": [
+   "sku-040",
+   "policy-excursion-response"
+  ],
+  "id": "q164"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-014. What action is required?",
+  "answer": "log the excursion with no further action",
+  "relevant_ids": [
+   "sku-014",
+   "policy-excursion-response"
+  ],
+  "id": "q165"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-022. What action is required?",
+  "answer": "place an immediate lot hold and notify the quality lead",
+  "relevant_ids": [
+   "sku-022",
+   "policy-excursion-response"
+  ],
+  "id": "q166"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-018. What action is required?",
+  "answer": "open a quality review within 24 hours",
+  "relevant_ids": [
+   "sku-018",
+   "policy-excursion-response"
+  ],
+  "id": "q167"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-028. What action is required?",
+  "answer": "place an immediate lot hold and notify the quality lead",
+  "relevant_ids": [
+   "sku-028",
+   "policy-excursion-response"
+  ],
+  "id": "q168"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-029. What action is required?",
+  "answer": "open a quality review within 24 hours",
+  "relevant_ids": [
+   "sku-029",
+   "policy-excursion-response"
+  ],
+  "id": "q169"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-024. What action is required?",
+  "answer": "place an immediate lot hold and notify the quality lead",
+  "relevant_ids": [
+   "sku-024",
+   "policy-excursion-response"
+  ],
+  "id": "q170"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-004. What action is required?",
+  "answer": "log the excursion with no further action",
+  "relevant_ids": [
+   "sku-004",
+   "policy-excursion-response"
+  ],
+  "id": "q171"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-040. What action is required?",
+  "answer": "log the excursion with no further action",
+  "relevant_ids": [
+   "sku-040",
+   "policy-excursion-response"
+  ],
+  "id": "q172"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-023. What action is required?",
+  "answer": "open a quality review within 24 hours",
+  "relevant_ids": [
+   "sku-023",
+   "policy-excursion-response"
+  ],
+  "id": "q173"
+ },
+ {
+  "type": "multihop",
+  "question": "A temperature excursion happened on SKU-021. What action is required?",
+  "answer": "open a quality review within 24 hours",
+  "relevant_ids": [
+   "sku-021",
+   "policy-excursion-response"
+  ],
+  "id": "q174"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Cold Chain Policy.",
+  "answer": "Cold chain products must be stored between 2 and 8 degrees Celsius. Any temperature excursion must be recorded within one hour. The required response to an excursion depends on the risk class of the SKU, see [[policy-excursion-response]] and [[policy-lot-hold]].",
+  "relevant_ids": [
+   "policy-cold-chain"
+  ],
+  "id": "q175"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Excursion Response Policy.",
+  "answer": "After a temperature excursion, risk class A SKUs require you to place an immediate lot hold and notify the quality lead. Risk class B SKUs require you to open a quality review within 24 hours. Risk class C SKUs require you to log the excursion with no further action. See [[policy-lot-hold]] for hold mechanics.",
+  "relevant_ids": [
+   "policy-excursion-response"
+  ],
+  "id": "q176"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Lot Hold Policy.",
+  "answer": "A lot hold freezes shipment of a lot. Placing a lot hold is a Tier 3 mutation and needs human approval from an authorized reviewer, see [[policy-hitl-approval]]. Lot identifiers use the format LOT-00000 with five digits.",
+  "relevant_ids": [
+   "policy-lot-hold"
+  ],
+  "id": "q177"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Human Approval Policy.",
+  "answer": "Tier 3 actions such as lot holds and SKU status changes are never executed automatically. They are written as PENDING_APPROVAL and wait for a reviewer to approve or reject. Reviewers must not approve their own requests.",
+  "relevant_ids": [
+   "policy-hitl-approval"
+  ],
+  "id": "q178"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Product Recall Policy.",
+  "answer": "A recall is initiated by the quality lead after a confirmed safety defect. All lots of the affected SKU are placed on hold, see [[policy-lot-hold]], and customers are notified within 48 hours.",
+  "relevant_ids": [
+   "policy-recall"
+  ],
+  "id": "q179"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Personal Data Policy.",
+  "answer": "Personal data such as email addresses, phone numbers and social security numbers must be redacted before storage. Raw personal data is never written to logs, caches or audit records. See [[policy-audit-log]].",
+  "relevant_ids": [
+   "policy-pii"
+  ],
+  "id": "q180"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Audit Log Policy.",
+  "answer": "Every agent action is written to a hash chained audit log. Each entry includes the hash of the previous entry so tampering is detectable. Audit entries are scoped by tenant.",
+  "relevant_ids": [
+   "policy-audit-log"
+  ],
+  "id": "q181"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Expiry Handling Policy.",
+  "answer": "Products within 30 days of expiry are flagged for priority shipping. Expired products must be quarantined, see [[policy-quarantine]].",
+  "relevant_ids": [
+   "policy-expiry"
+  ],
+  "id": "q182"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Quarantine Policy.",
+  "answer": "Quarantined stock is physically segregated and labeled QUARANTINE. Release from quarantine requires a quality review.",
+  "relevant_ids": [
+   "policy-quarantine"
+  ],
+  "id": "q183"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Supplier Audit Policy.",
+  "answer": "Critical suppliers are audited every 12 months. Non critical suppliers are audited every 24 months.",
+  "relevant_ids": [
+   "policy-supplier-audit"
+  ],
+  "id": "q184"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Returns Policy.",
+  "answer": "Customer returns are accepted within 30 days of delivery when the seal is intact. Returned cold chain products are never restocked.",
+  "relevant_ids": [
+   "policy-returns"
+  ],
+  "id": "q185"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Labeling Policy.",
+  "answer": "Every unit carries a label with SKU, lot number and expiry date. Labels for cold chain products also show the storage temperature range.",
+  "relevant_ids": [
+   "policy-labeling"
+  ],
+  "id": "q186"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Cold Chain Policy.",
+  "answer": "Cold chain products must be stored between 2 and 8 degrees Celsius. Any temperature excursion must be recorded within one hour. The required response to an excursion depends on the risk class of the SKU, see [[policy-excursion-response]] and [[policy-lot-hold]].",
+  "relevant_ids": [
+   "policy-cold-chain"
+  ],
+  "id": "q187"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Excursion Response Policy.",
+  "answer": "After a temperature excursion, risk class A SKUs require you to place an immediate lot hold and notify the quality lead. Risk class B SKUs require you to open a quality review within 24 hours. Risk class C SKUs require you to log the excursion with no further action. See [[policy-lot-hold]] for hold mechanics.",
+  "relevant_ids": [
+   "policy-excursion-response"
+  ],
+  "id": "q188"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Lot Hold Policy.",
+  "answer": "A lot hold freezes shipment of a lot. Placing a lot hold is a Tier 3 mutation and needs human approval from an authorized reviewer, see [[policy-hitl-approval]]. Lot identifiers use the format LOT-00000 with five digits.",
+  "relevant_ids": [
+   "policy-lot-hold"
+  ],
+  "id": "q189"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Human Approval Policy.",
+  "answer": "Tier 3 actions such as lot holds and SKU status changes are never executed automatically. They are written as PENDING_APPROVAL and wait for a reviewer to approve or reject. Reviewers must not approve their own requests.",
+  "relevant_ids": [
+   "policy-hitl-approval"
+  ],
+  "id": "q190"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Product Recall Policy.",
+  "answer": "A recall is initiated by the quality lead after a confirmed safety defect. All lots of the affected SKU are placed on hold, see [[policy-lot-hold]], and customers are notified within 48 hours.",
+  "relevant_ids": [
+   "policy-recall"
+  ],
+  "id": "q191"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Personal Data Policy.",
+  "answer": "Personal data such as email addresses, phone numbers and social security numbers must be redacted before storage. Raw personal data is never written to logs, caches or audit records. See [[policy-audit-log]].",
+  "relevant_ids": [
+   "policy-pii"
+  ],
+  "id": "q192"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Audit Log Policy.",
+  "answer": "Every agent action is written to a hash chained audit log. Each entry includes the hash of the previous entry so tampering is detectable. Audit entries are scoped by tenant.",
+  "relevant_ids": [
+   "policy-audit-log"
+  ],
+  "id": "q193"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Expiry Handling Policy.",
+  "answer": "Products within 30 days of expiry are flagged for priority shipping. Expired products must be quarantined, see [[policy-quarantine]].",
+  "relevant_ids": [
+   "policy-expiry"
+  ],
+  "id": "q194"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Quarantine Policy.",
+  "answer": "Quarantined stock is physically segregated and labeled QUARANTINE. Release from quarantine requires a quality review.",
+  "relevant_ids": [
+   "policy-quarantine"
+  ],
+  "id": "q195"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Supplier Audit Policy.",
+  "answer": "Critical suppliers are audited every 12 months. Non critical suppliers are audited every 24 months.",
+  "relevant_ids": [
+   "policy-supplier-audit"
+  ],
+  "id": "q196"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Returns Policy.",
+  "answer": "Customer returns are accepted within 30 days of delivery when the seal is intact. Returned cold chain products are never restocked.",
+  "relevant_ids": [
+   "policy-returns"
+  ],
+  "id": "q197"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Labeling Policy.",
+  "answer": "Every unit carries a label with SKU, lot number and expiry date. Labels for cold chain products also show the storage temperature range.",
+  "relevant_ids": [
+   "policy-labeling"
+  ],
+  "id": "q198"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Cold Chain Policy.",
+  "answer": "Cold chain products must be stored between 2 and 8 degrees Celsius. Any temperature excursion must be recorded within one hour. The required response to an excursion depends on the risk class of the SKU, see [[policy-excursion-response]] and [[policy-lot-hold]].",
+  "relevant_ids": [
+   "policy-cold-chain"
+  ],
+  "id": "q199"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Excursion Response Policy.",
+  "answer": "After a temperature excursion, risk class A SKUs require you to place an immediate lot hold and notify the quality lead. Risk class B SKUs require you to open a quality review within 24 hours. Risk class C SKUs require you to log the excursion with no further action. See [[policy-lot-hold]] for hold mechanics.",
+  "relevant_ids": [
+   "policy-excursion-response"
+  ],
+  "id": "q200"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Lot Hold Policy.",
+  "answer": "A lot hold freezes shipment of a lot. Placing a lot hold is a Tier 3 mutation and needs human approval from an authorized reviewer, see [[policy-hitl-approval]]. Lot identifiers use the format LOT-00000 with five digits.",
+  "relevant_ids": [
+   "policy-lot-hold"
+  ],
+  "id": "q201"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Human Approval Policy.",
+  "answer": "Tier 3 actions such as lot holds and SKU status changes are never executed automatically. They are written as PENDING_APPROVAL and wait for a reviewer to approve or reject. Reviewers must not approve their own requests.",
+  "relevant_ids": [
+   "policy-hitl-approval"
+  ],
+  "id": "q202"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Product Recall Policy.",
+  "answer": "A recall is initiated by the quality lead after a confirmed safety defect. All lots of the affected SKU are placed on hold, see [[policy-lot-hold]], and customers are notified within 48 hours.",
+  "relevant_ids": [
+   "policy-recall"
+  ],
+  "id": "q203"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Personal Data Policy.",
+  "answer": "Personal data such as email addresses, phone numbers and social security numbers must be redacted before storage. Raw personal data is never written to logs, caches or audit records. See [[policy-audit-log]].",
+  "relevant_ids": [
+   "policy-pii"
+  ],
+  "id": "q204"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Audit Log Policy.",
+  "answer": "Every agent action is written to a hash chained audit log. Each entry includes the hash of the previous entry so tampering is detectable. Audit entries are scoped by tenant.",
+  "relevant_ids": [
+   "policy-audit-log"
+  ],
+  "id": "q205"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Expiry Handling Policy.",
+  "answer": "Products within 30 days of expiry are flagged for priority shipping. Expired products must be quarantined, see [[policy-quarantine]].",
+  "relevant_ids": [
+   "policy-expiry"
+  ],
+  "id": "q206"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Quarantine Policy.",
+  "answer": "Quarantined stock is physically segregated and labeled QUARANTINE. Release from quarantine requires a quality review.",
+  "relevant_ids": [
+   "policy-quarantine"
+  ],
+  "id": "q207"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Supplier Audit Policy.",
+  "answer": "Critical suppliers are audited every 12 months. Non critical suppliers are audited every 24 months.",
+  "relevant_ids": [
+   "policy-supplier-audit"
+  ],
+  "id": "q208"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Returns Policy.",
+  "answer": "Customer returns are accepted within 30 days of delivery when the seal is intact. Returned cold chain products are never restocked.",
+  "relevant_ids": [
+   "policy-returns"
+  ],
+  "id": "q209"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Labeling Policy.",
+  "answer": "Every unit carries a label with SKU, lot number and expiry date. Labels for cold chain products also show the storage temperature range.",
+  "relevant_ids": [
+   "policy-labeling"
+  ],
+  "id": "q210"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Cold Chain Policy.",
+  "answer": "Cold chain products must be stored between 2 and 8 degrees Celsius. Any temperature excursion must be recorded within one hour. The required response to an excursion depends on the risk class of the SKU, see [[policy-excursion-response]] and [[policy-lot-hold]].",
+  "relevant_ids": [
+   "policy-cold-chain"
+  ],
+  "id": "q211"
+ },
+ {
+  "type": "summary",
+  "question": "Summarize the Excursion Response Policy.",
+  "answer": "After a temperature excursion, risk class A SKUs require you to place an immediate lot hold and notify the quality lead. Risk class B SKUs require you to open a quality review within 24 hours. Risk class C SKUs require you to log the excursion with no further action. See [[policy-lot-hold]] for hold mechanics.",
+  "relevant_ids": [
+   "policy-excursion-response"
+  ],
+  "id": "q212"
+ },
+ {
+  "type": "negative",
+  "question": "What is the price of SKU-031?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q213"
+ },
+ {
+  "type": "negative",
+  "question": "Who is the CEO of the company?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q214"
+ },
+ {
+  "type": "negative",
+  "question": "What is the weather in Berlin today?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q215"
+ },
+ {
+  "type": "negative",
+  "question": "What is the supplier phone number for SKU-002?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q216"
+ },
+ {
+  "type": "negative",
+  "question": "How many units of SKU-008 were sold last year?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q217"
+ },
+ {
+  "type": "negative",
+  "question": "What is the salary of the quality lead?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q218"
+ },
+ {
+  "type": "negative",
+  "question": "Which competitor makes SKU-035?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q219"
+ },
+ {
+  "type": "negative",
+  "question": "What is the stock price today?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q220"
+ },
+ {
+  "type": "negative",
+  "question": "What is the price of SKU-017?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q221"
+ },
+ {
+  "type": "negative",
+  "question": "Who is the CEO of the company?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q222"
+ },
+ {
+  "type": "negative",
+  "question": "What is the weather in Berlin today?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q223"
+ },
+ {
+  "type": "negative",
+  "question": "What is the supplier phone number for SKU-002?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q224"
+ },
+ {
+  "type": "negative",
+  "question": "How many units of SKU-023 were sold last year?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q225"
+ },
+ {
+  "type": "negative",
+  "question": "What is the salary of the quality lead?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q226"
+ },
+ {
+  "type": "negative",
+  "question": "Which competitor makes SKU-028?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q227"
+ },
+ {
+  "type": "negative",
+  "question": "What is the stock price today?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q228"
+ },
+ {
+  "type": "negative",
+  "question": "What is the price of SKU-021?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q229"
+ },
+ {
+  "type": "negative",
+  "question": "Who is the CEO of the company?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q230"
+ },
+ {
+  "type": "negative",
+  "question": "What is the weather in Berlin today?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q231"
+ },
+ {
+  "type": "negative",
+  "question": "What is the supplier phone number for SKU-028?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q232"
+ },
+ {
+  "type": "negative",
+  "question": "How many units of SKU-032 were sold last year?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q233"
+ },
+ {
+  "type": "negative",
+  "question": "What is the salary of the quality lead?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q234"
+ },
+ {
+  "type": "negative",
+  "question": "Which competitor makes SKU-016?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q235"
+ },
+ {
+  "type": "negative",
+  "question": "What is the stock price today?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q236"
+ },
+ {
+  "type": "negative",
+  "question": "What is the price of SKU-036?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q237"
+ },
+ {
+  "type": "negative",
+  "question": "Who is the CEO of the company?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q238"
+ },
+ {
+  "type": "negative",
+  "question": "What is the weather in Berlin today?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q239"
+ },
+ {
+  "type": "negative",
+  "question": "What is the supplier phone number for SKU-001?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q240"
+ },
+ {
+  "type": "negative",
+  "question": "How many units of SKU-028 were sold last year?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q241"
+ },
+ {
+  "type": "negative",
+  "question": "What is the salary of the quality lead?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q242"
+ },
+ {
+  "type": "negative",
+  "question": "Which competitor makes SKU-005?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q243"
+ },
+ {
+  "type": "negative",
+  "question": "What is the stock price today?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q244"
+ },
+ {
+  "type": "negative",
+  "question": "What is the price of SKU-014?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q245"
+ },
+ {
+  "type": "negative",
+  "question": "Who is the CEO of the company?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q246"
+ },
+ {
+  "type": "negative",
+  "question": "What is the weather in Berlin today?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q247"
+ },
+ {
+  "type": "negative",
+  "question": "What is the supplier phone number for SKU-001?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q248"
+ },
+ {
+  "type": "negative",
+  "question": "How many units of SKU-007 were sold last year?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q249"
+ },
+ {
+  "type": "negative",
+  "question": "What is the salary of the quality lead?",
+  "answer": "UNANSWERABLE",
+  "relevant_ids": [],
+  "id": "q250"
+ }
+]

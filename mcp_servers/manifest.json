@@ -1,0 +1,32 @@
+{
+ "hybrid-rag": {
+  "name": "hybrid-rag",
+  "file": "mcp_servers/rag_server.py",
+  "sha256": "fbbecd9baa5a1d6228a6671dce4661102a471c821aff65d666d0aecfeaa013d6",
+  "tools": [
+   "hybrid_retrieve"
+  ],
+  "signature": "f4d4b884db6feb971dfbe898243f4976ccf4aa0c24505ffeb625573366a4e2cd"
+ },
+ "graphify-vault": {
+  "name": "graphify-vault",
+  "file": "mcp_servers/graphify_server.py",
+  "sha256": "bb0260841c383f01588c2b58f873be99fa02ced8e9a5c69b58929d6328ce53dc",
+  "tools": [
+   "subgraph"
+  ],
+  "signature": "a2d91244f8f0c510818b8c7f79f56335e018b03a5bbb3c4ed0d4f0f4e3338bbb"
+ },
+ "state-store": {
+  "name": "state-store",
+  "file": "mcp_servers/state_server.py",
+  "sha256": "58af2ab8715d73815525066ce391f6d2050a8ac6683c9385b8395ebe894b4042",
+  "tools": [
+   "get_lot_status",
+   "compute_risk",
+   "place_lot_hold",
+   "append_audit"
+  ],
+  "signature": "a8f7e693f6f10704c9bd87bcbe97b923aeda7ec53812d5e47fa0a253626b9477"
+ }
+}

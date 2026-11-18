@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Runtime state
+state.db*
+workbench.db*
+*.db-wal
+*.db-shm
+nohup.out
+
+# Load test output
+results_50k.jtl
+dashboard_50k/
+eval/results/load_smoke.json
+eval/results/load_summary.json
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+.~lock.*#
